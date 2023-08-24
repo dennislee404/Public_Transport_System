@@ -14,14 +14,14 @@ class Card
 
 	def top_up(amount)
 		@balance += amount
-		puts "RM#{sprintf('%.2f',amount)} has been added to your card."
-		puts "Your current balance is RM#{sprintf('%.2f',@balance)}."
+		#puts "RM#{sprintf('%.2f',amount)} has been added to your card."
+		#puts "Your current balance is RM#{sprintf('%.2f',@balance)}."
 	end
 
 	def deduct_fare(amount)
 		@balance -= amount
-		puts "RM#{sprintf('%.2f',amount)} deducted from your card"
-		puts "Your current balance is RM#{sprintf('%.2f',@balance)}."
+		#puts "RM#{sprintf('%.2f',amount)} deducted from your card"
+		#puts "Your current balance is RM#{sprintf('%.2f',@balance)}."
 	end
 
 	def expired!

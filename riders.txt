@@ -1,0 +1,3 @@
+Dennis,26,Student Card,650,true
+Roger,71,Senior Card,300,false
+Danny,42,Standard Card,150,false
